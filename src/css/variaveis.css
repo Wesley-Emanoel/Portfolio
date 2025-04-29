@@ -1,0 +1,19 @@
+:root {
+    --cor-primaria: rgb(48, 83, 45);
+    --cor-secundaria: rgb(1, 21, 2);
+    --cor-branca: #ffffff;
+    --cor-fundo-escuro: #000000;    
+  }
+    
+  :root {
+    --fonte-titulos: "Audiowide", sans-serif;
+    --fonte-secundaria: "Open Sans", sans-serif;
+    --fonte-gigante: 4.5rem;
+    --fonte-extra-grande: 3rem;
+    --fonte-grande: 2.4rem;
+    --fonte-normal: 1.6rem;
+  }
+  
+  :root {
+    --mobile-padding: 30px;
+  }

@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wesley Emanoel - Desenvolvedor Frontend</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+
+  <script src="https://kit.fontawesome.com/1df5c61820.js" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="src/css/variaveis.css" />
+  <link rel="stylesheet" href="src/css/reset.css" />
+  <link rel="stylesheet" href="src/css/globais.css" />
+  <link rel="stylesheet" href="src/css/secoes/header.css" />
+  <link rel="stylesheet" href="src/css/secoes/home.css" />
+  <link rel="stylesheet" href="src/css/secoes/sobre.css" />
+  <link rel="stylesheet" href="src/css/secoes/habilidades.css" />
+  <link rel="stylesheet" href="src/css/secoes/projetos.css" />
+  <link rel="stylesheet" href="src/css/secoes/footer.css" />
+
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="row justify-content-between alinhar-itens-no-centro">
+        <a href="#">
+          <img class="logo" src="src/imagens/logo.png" alt="">
+        </a>
+        <nav>
+          <input id="menu-hamburguer" type="checkbox" />
+
+          <label for="menu-hamburguer">
+            <div class="menu">
+              <span class="hamburguer"></span>
+            </div>
+          </label>
+          <ul>
+            <li><a href="#sobre-mim">Sobre mim</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#projetos">Meus projetos</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <section class="home">
+    <div class="container">
+      <div class="row full-screen alinhar-itens-no-centro">
+        <div class="img-home">
+          <div class="img-box inner-shadow">
+            <img class="outer-shadow" src="src/imagens/Foto-perfil.jpg" alt="foto do perfil do Wesley" />
+          </div>
+        </div>
+
+        <div class="texto-home">
+          <p>Olá 👋,</p>
+          <h1>Sou o Wesley Emanoel</h1>
+          <h2>Desenvolvedor Frontend.</h2>
+
+          <div class="redes-sociais">
+            <a href="https://www.linkedin.com/in/wesley-emanoel-814a19352/" target="_blank" class="outer-shadow"><i
+                class="fab fa-linkedin-in"></i></a>
+
+            <a href="https://api.whatsapp.com/send/?phone=55999479323&text&type=phone_number&app_absent=0"
+              target="_blank" class="outer-shadow"><i class="fab fa-whatsapp"></i></a>
+
+            <a href="https://github.com/Wesley-Emanoel" target="_blank" class="outer-shadow"><i
+                class="fab fa-github"></i></a>
+
+            <a href="https://www.instagram.com/emanoel.wesley/" target="_blank" class="outer-shadow"><i
+                class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="sobre-mim section" id="sobre-mim">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2>Sobre mim</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="imagem-sobre-mim">
+          <div class="img-box inner-shadow">
+            <img src="src/imagens/Foto-secundaria.jpg" alt="Foto-secundaria" class="outer-shadow" />
+          </div>
+        </div>
+        <div class="informacoes-sobre-mim">
+          <p><strong>Olá! Me chamo Wesley Emanoel Sasz da Silva e sou um desenvolvedor frontend em formação!</strong> Atualmente, curso Análise e Desenvolvimento de Sistemas na UniRitter e sou aluno do curso DevQuest onde aprofundo meus conhecimentos em tecnologias web, usabilidade e boas práticas de programação.
+          </p>
+
+          <p> Antes de entrar no mundo da tecnologia, atuei como militar — uma experiência que moldou minha disciplina, resiliência e capacidade de trabalhar sob pressão. Hoje, trago esses mesmos valores para cada linha de código que escrevo, sempre buscando soluções limpas, eficientes e com foco na experiência do usuário.</p>
+
+          <p>Estou constantemente me desafiando com novos projetos e aprendizados, e meu objetivo é evoluir continuamente como profissional na área de desenvolvimento web. 💪🏼</p>
+
+          <div class="botoes">
+            <a target="_blank" href="/src/arquivos/Wesley-Emanoel-CV.pdf" class="botao outer-shadow">Veja meu CV</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="habilidades section" id="habilidades">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2>Habilidades</h2>
+        </div>
+      </div>
+
+      <div class="container-habilidades">
+        <div class="informacoes javascript">
+          <div class="logo">
+            <i class="fa-brands fa-js" id="javascript"></i>
+          </div>
+          <h3>JavaScript</h3>
+        </div>
+
+        <div class="informacoes html">
+          <div class="logo">
+            <i class="fa-brands fa-html5" id="html"></i>
+          </div>
+          <h3>HTML5</h3>
+        </div>
+
+        <div class="informacoes css">
+          <div class="logo">
+            <i class="fa-brands fa-css3-alt"></i>
+          </div>
+          <h3>CSS3</h3>
+        </div>
+
+        <div class="informacoes github">
+          <div class="logo">
+            <i class="fa-brands fa-github"></i>
+          </div>
+          <h3>GitHub</h3>
+        </div>
+
+        <div class="informacoes git">
+          <div class="logo">
+            <i class="fa-brands fa-git-alt"></i>
+          </div>
+          <h3>Git</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="projetos section" id="projetos">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2>Meus projetos</h2>
+        </div>
+      </div>
+
+      <div class="container-projetos">
+        <div class="projeto">
+          <a href="https://wesley-emanoel.github.io/Projeto-Landing-Page-com-Flex-e-Grid/" target="_blank">
+            <img src="./src/imagens/Agencia XYZ.png" alt="Agência XYZ" />
+            <h3>Landing Page Agência XYZ</h3>
+            <div class="informacoes-projeto">
+              <p>Projeto do FrondEnd Mentor feito usando HTML e CSS.</p>
+              <p>🔗 Ver no GitHub Pages</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="projeto">
+          <a href="https://wesley-emanoel.github.io/QUEST-HTML-CSS-AVANCADO/" target="_blank">
+            <img src="./src/imagens/Huddle.png" alt="Huddle" />
+            <h3>Landing Page Huddle</h3>
+            <div class="informacoes-projeto">
+              <p>Quest de HTML e CSS avançado, feita com flexbox.</p>
+              <p>🔗 Ver no GitHub Pages</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="projeto">
+          <a href="https://wesley-emanoel.github.io/NFT-preview-card-component/" target="_blank">
+            <img src="./src/imagens/NFT Card.png" alt="NFT Card" />
+            <h3>Projeto NFT Card</h3>
+            <div class="informacoes-projeto">
+              <p>Frontend Mentor - NFT preview card component</p>
+              <p>🔗 Ver no GitHub Pages</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <h2>Me envie uma mensagem!</h2>
+      <div class="redes-sociais">
+        <a href="https://www.linkedin.com/in/wesley-emanoel-814a19352/" target="_blank" class="outer-shadow"><i
+            class="fab fa-linkedin-in"></i></a>
+
+        <a href="https://api.whatsapp.com/send/?phone=55999479323&text&type=phone_number&app_absent=0" target="_blank"
+          class="outer-shadow"><i class="fab fa-whatsapp"></i></a>
+
+        <a href="https://github.com/Wesley-Emanoel" target="_blank" class="outer-shadow"><i
+            class="fab fa-github"></i></a>
+
+        <a href="https://www.instagram.com/emanoel.wesley/" target="_blank" class="outer-shadow"><i
+            class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>
